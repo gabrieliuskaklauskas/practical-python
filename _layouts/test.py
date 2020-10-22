@@ -1,11 +1,7 @@
 import csv
 from pprint import pprint
-prices = {}
 
-s = {
-    'name': 'IBM',
-    'shares': 100,
-    'price': 91.1
-}
-print('{name:>10s} {shares:10d} {price:10.2f}'.format_map(s))
+data = [4, 9, 1, 25, 16, 100, 49]
 
+for i, x in enumerate(data):
+    print(f'row {i} and var {x}')
